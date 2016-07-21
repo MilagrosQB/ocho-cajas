@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+	margin:3px;
+	padding:0px;
+}
+
+.caja1 {
+	position:relative;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	left:25px;
+	width:150px;
+	height:150px;
+	background:#808080;
+	border:3px solid black;
+}
+.caja2{
+	position:absolute;
+	top:161px;
+	bottom:0px;
+	right:0px;
+	left:33px;
+	width:540px;
+	height:200px;
+	background:#808080;
+	border:3px solid black;
+}
+.caja2-hijo{
+	width:150px;
+	height:150px;
+	background:#808080;
+	border:3px solid black;
+	display:inline-block;
+	position:relative;
+	top:20px;
+	bottom:0px;
+	right:0px;
+	left:20px;
+	margin-right:15px;
+}
+
+.caja3-hijo {
+	position:relative;
+	top:217px;
+	bottom:0px;
+	right:0px;
+	left:25px;
+	width:150px;
+	height:150px;
+	background:#808080;
+	border:3px solid black;
+	margin-right:15px;
+	display:inline-block;
+}
+.caja4-hijo{
+	position:relative;
+	top:217px;
+	bottom:0px;
+	right:0px;
+	left:25px;
+	width:150px;
+	height:150px;
+	background:#808080;
+	border:3px solid black;
+	display:inline-block;
+}
